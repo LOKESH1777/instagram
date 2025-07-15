@@ -1,0 +1,140 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "./src/assets/profile-1.jpeg"
+      },
+      "image": "./src/assets/image-1.jpeg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "sarah_lee",
+        "profile_pic": "./src/assets/profile-2.jpeg"
+      },
+      "image": "./src/assets/image-2.jpeg",
+      "caption": "Coffee first ☕ #MondayMotivation",
+      "likes": 230,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "I need this coffee right now! 😍"
+        }
+      ],
+      "timestamp": "2025-02-11T16:00:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "travel_with_anna",
+        "profile_pic": "./src/assets/profile-3.avif"
+      },
+      "image": "./src/assets/image-3.jpeg",
+      "caption": "Exploring the mountains! 🏞️",
+      "likes": 450,
+      "comments": [
+        {
+          "user": "mark_92",
+          "comment": "This looks like heaven! 😍"
+        },
+        {
+          "user": "sarah_lee",
+          "comment": "Amazing view!"
+        }
+      ],
+      "timestamp": "2025-02-11T18:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "john_doe",
+    "profile_pic": "./src/assets/profile-1.jpeg"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "smith_vann",
+      "profile_pic": "./src/assets/profile-1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "john_lee",
+      "profile_pic": "./src/assets/profile-2.jpeg"
+    },
+    {
+      "id": "103",
+      "username": "the_anna",
+      "profile_pic": "./src/assets/profile-3.avif"
+    },
+    {
+      "id": "104",
+      "username": "travis_anna",
+      "profile_pic": "./src/assets/profile-3.avif"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "./src/assets/profile-1.jpeg"
+      },
+      "image": "/src/assets/s1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "sarah_lee",
+        "profile_pic": "./src/assets/profile-2.jpeg"
+      },
+      "image": "/src/assets/s2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "travel_with_anna",
+        "profile_pic": "./src/assets/profile-3.avif"
+      },
+      "image": "/src/assets/s3.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "109",
+      "username": "travis_anna"
+    },
+    {
+      "id": "108",
+      "username": "the_anna"
+    },
+    {
+      "id": "101",
+      "username": "smith_vann"
+    },
+    {
+      "id": "104",
+      "username": "travis_anna"
+    }
+  ]
+}
